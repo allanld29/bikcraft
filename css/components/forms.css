@@ -1,0 +1,31 @@
+form label {
+    display: block;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+form label input,
+form label textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: var(--color-neutral-12);
+    background: var(--color-neutral-2);
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid var(--color-neutral-3);
+}
+
+form .span-grid-2 {
+    grid-column: 1/-1;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #fea;
+  background: var(--color-neutral-1);
+  border-color: var(--color-primary-2);
+}

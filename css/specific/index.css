@@ -1,0 +1,252 @@
+/* Introduction
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bg-intro {
+    box-shadow: inset 0 -120px var(--color-neutral-2);
+}
+
+#introduction {
+    gap: 0 80px;
+    display: grid;
+    padding-top: 40px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+#introduction article {
+    padding-bottom: 120px;
+}
+
+#introduction article :is(h1, p) {
+    margin-bottom: 24px;
+}
+
+@media (max-width: 800px) {
+    #introduction {
+        grid-template-columns: 1fr;
+    }
+
+    #introduction picture img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #introduction article {
+        padding-bottom: 40px;
+    }
+}
+
+/* Bikes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#bikes {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#bikes h2 {
+    margin-bottom: 32px;
+}
+
+#bikes-list {
+    gap: 40px;
+    display: flex;
+    overflow-x: auto;
+}
+
+#bikes-list li a h3 {
+    display: flex;
+    align-items: center;
+}
+
+#bikes-list li h3::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    display: block;
+    transition: 0.3s;
+    margin-right: 8px;
+    background-color: var(--color-primary-2);
+}
+
+#bikes-list li:hover h3::before {
+    width: 16px;
+}
+
+#bikes-list li:hover img {
+    scale: 0.98;
+}
+
+#bikes-list li img {
+    min-width: 260px;
+    transition: 0.3s;
+}
+
+/* Technology
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bg-tech {
+    box-shadow:
+    inset 0 100px var(--color-neutral-2),
+    inset 0 -100px var(--color-neutral-2);
+}
+
+#technology {
+    gap: 0 40px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+#technology article {
+    gap: 20px;
+    display: grid;
+    padding: 120px 0;
+}
+
+#technology article span {
+    text-transform: uppercase;
+}
+
+#technology-advantages {
+    gap: 40px;
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 1000px) {
+
+    #technology article {
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .bg-tech {
+        box-shadow: initial;
+    }
+
+    #technology {
+        grid-template-columns: 1fr;
+    }
+
+    #technology picture img {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    #technology-advantages {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Partners
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#partners ul {
+    display: grid;
+    margin-top: 56px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#partners ul li {
+    display: flex;
+    padding: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+#partners ul li img {
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+@media (max-width: 1000px) {
+    #partners {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    #partners ul {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #partners ul li {
+        padding: 20px;
+    }
+}
+
+/* Insurance
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#insurance {
+    gap: 0 40px;
+    display: grid;
+    padding-top: 60px;
+    align-items: center;
+    padding-bottom: 60px;
+    grid-template-columns: 1fr 1fr;
+}
+
+#insurance h2 {
+    margin-bottom: 48px;
+}
+
+
+#insurance :is(h2, .button, .insurance-item ul) {
+    grid-column: 1/-1;
+}
+
+.insurance-item {
+    gap: 24px;
+    display: grid;
+    border-radius: 4px;
+    padding: 32px 32px 32px 60px;
+    grid-template-columns: 1fr auto;
+    background: var(--color-neutral-13);
+}
+
+.insurance-item span {
+    display: block;
+    font-weight: 600;
+    text-align: right;
+}
+
+.insurance-item li {
+    display: flex;
+    margin-top: 12px;
+    position: relative;
+    align-items: center;
+}
+
+.insurance-item li::before {
+    content: "";
+    width: 13px;
+    height: 9px;
+    left: -21px;
+    position: absolute;
+    display: inline-block;
+    background-image: url("../../imgs/icons/check.svg");
+}
+
+@media (max-width: 700px) {
+    
+    #insurance h2 {
+        margin-bottom: 20px;
+    }
+
+    #insurance {
+        gap: 24px;
+        padding: 32px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .insurance-item {
+        padding: 24px 24px 24px 40px;
+    }
+    
+}

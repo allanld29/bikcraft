@@ -1,0 +1,148 @@
+/* Insurance
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#insurance {
+    gap: 0 40px;
+    display: grid;
+    padding-top: 60px;
+    align-items: center;
+    padding-bottom: 60px;
+    grid-template-columns: 1fr 1fr;
+}
+
+#insurance h2 {
+    margin-bottom: 48px;
+}
+
+
+#insurance :is(h2, .button, .insurance-item ul) {
+    grid-column: 1/-1;
+}
+
+.insurance-item {
+    gap: 24px;
+    display: grid;
+    border-radius: 4px;
+    padding: 32px 32px 32px 60px;
+    grid-template-columns: 1fr auto;
+    background: var(--color-neutral-13);
+}
+
+.insurance-item span {
+    display: block;
+    font-weight: 600;
+    text-align: right;
+}
+
+.insurance-item li {
+    display: flex;
+    margin-top: 12px;
+    position: relative;
+    align-items: center;
+}
+
+.insurance-item li::before {
+    content: "";
+    width: 13px;
+    height: 9px;
+    left: -21px;
+    position: absolute;
+    display: inline-block;
+    background-image: url("../../imgs/icons/check.svg");
+}
+
+@media (max-width: 700px) {
+    
+    #insurance h2 {
+        margin-bottom: 20px;
+    }
+
+    #insurance {
+        gap: 24px;
+        padding: 32px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .insurance-item {
+        padding: 24px 24px 24px 40px;
+    }
+    
+}
+
+/* Advantages
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#advantages {
+    padding-bottom: 60px;
+}
+
+#advantages h2 {
+    padding: 60px 0;
+}
+
+#advantages ul {
+    gap: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+#advantages ul li {
+    width: 100%;
+}
+
+@media (max-width: 550px) {
+    #advantages ul {
+        gap: 24px;
+        grid-template-columns: 1fr;
+    }
+}
+
+/* FAQ
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#faq h2 {
+    padding: 40px 0 60px 0;
+}
+
+#faq dl div {
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+#faq dl div:nth-child(odd) {
+    background-color: var(--color-neutral-2);
+}
+
+#faq dt {
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+
+#faq dt::before {
+    content: "";
+    width: 12px;
+    height: 8px;
+    display: block;
+    background-color: var(--color-primary-2);
+}
+
+#faq dd {
+    max-width: 80ch;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-left: 20px;
+}
+
+#faq div dt::before {
+    display: block;
+}
+
+@media (max-width: 550px) {
+    #faq dt {
+        align-items: flex-start;
+    }
+    #faq dt::before {
+        margin-top: 6px;
+    }
+}

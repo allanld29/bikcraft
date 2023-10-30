@@ -1,0 +1,107 @@
+/* Bikes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#bikes-list {
+    gap: 60px;
+    display: grid;
+    padding: 60px 0;
+}
+
+.bg-bike {
+    background: linear-gradient(to right,
+            var(--color-neutral-2) 30%,
+            var(--color-neutral-12) 0%);
+}
+
+/* Bike Item
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bike-item {
+    gap: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bike-item picture {
+    display: grid;
+}
+
+.bike-item picture img {
+    grid-area: 1/1;
+}
+
+.bike-item picture span {
+    grid-area: 1/1;
+    margin-top: 20px;
+    place-self: start end;
+    display: inline-block;
+    padding: 8px 16px 8px 8px;
+    border-radius: 4px 0 0 4px;
+    background: var(--color-neutral-13);
+}
+
+/* Bike Info
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.bike-info {
+    gap: 24px;
+    display: grid;
+    align-content: start;
+    grid-template-columns: 1fr auto;
+}
+
+.bike-info :is(h2, p) {
+    grid-column: 1/-1;
+}
+
+.bike-info h2::before {
+    content: "";
+    width: 12px;
+    height: 8px;
+    display: block;
+    margin-bottom: 8px;
+    background-color: var(--color-primary-2);
+}
+
+.bike-info ul {
+    gap: 16;
+    display: grid;
+}
+
+.bike-info ul li {
+    gap: 20px;
+    display: flex;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.bike-info a {
+    place-self: end;
+}
+
+@media (max-width: 800px) {
+    .bg-bike {
+        background: var(--color-neutral-12);
+    }
+
+    .bike-item {
+        grid-template-columns: 1fr;
+    }
+
+    .bike-item picture img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    #bikes-list {
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .bike-info {
+        grid-template-columns: 1fr;
+    }
+
+    .bike-info a {
+        place-self: start;
+    }
+}

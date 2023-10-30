@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Base
+–––––––––––––––––––––––––––––––––––––– */
+@import './colors.css';
+@import './font-sizes.css';
+
+/* Components
+–––––––––––––––––––––––––––––––––––––– */
+@import './components/header.css';
+@import './components/footer.css';
+@import './components/button.css';
+@import './components/title.css';
+@import './components/forms.css';
+
+
+
+/* Basic
+–––––––––––––––––––––––––––––––––––––– */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font: 400 16px/1.5 "Poppins", sans-serif;
+}
+
+body {
+    background: var(--color-neutral-2);
+}
+
+img {
+    height: auto;
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Container
+–––––––––––––––––––––––––––––––––––––– */
+.container {
+    padding: 24px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+@media (max-width: 800px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        padding: 16px;
+    }
+}

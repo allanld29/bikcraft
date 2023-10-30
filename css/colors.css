@@ -1,0 +1,148 @@
+:root {
+
+    --color-primary-1: #FFBB00;
+    --color-primary-2: #F2A50C;
+    --color-primary-3: #E4A30B;
+    --color-primary-4: #A66F00;
+    --color-primary-5: #664400;
+    --color-primary-6: #332200;
+
+    --color-neutral-1: #FFFFFF;
+    --color-neutral-2: #F7F7F7;
+    --color-neutral-3: #EDEDED;
+    --color-neutral-4: #DEDEDE;
+    --color-neutral-5: #CCCCCC;
+    --color-neutral-6: #B2B2B2;
+    --color-neutral-7: #9C9C9C;
+    --color-neutral-8: #717171;
+    --color-neutral-9: #595959;
+    --color-neutral-10: #404040;
+    --color-neutral-11: #2E2E2E;
+    --color-neutral-12: #111111;
+    --color-neutral-13: #000000;
+
+}
+
+.txt-p1 {
+    color: var(--color-primary-1);
+}
+
+.txt-p2 {
+    color: var(--color-primary-2);
+}
+
+.txt-p3 {
+    color: var(--color-primary-3);
+}
+
+.txt-p4 {
+    color: var(--color-primary-4);
+}
+
+.txt-p5 {
+    color: var(--color-primary-5);
+}
+
+.txt-n1 {
+    color: var(--color-neutral-1);
+}
+
+.txt-n2 {
+    color: var(--color-neutral-2);
+}
+
+.txt-n3 {
+    color: var(--color-neutral-3);
+}
+
+.txt-n4 {
+    color: var(--color-neutral-4);
+}
+
+.txt-n5 {
+    color: var(--color-neutral-5);
+}
+
+.txt-n6 {
+    color: var(--color-neutral-6);
+}
+
+.txt-n7 {
+    color: var(--color-neutral-7);
+}
+
+.txt-n8 {
+    color: var(--color-neutral-8);
+}
+
+.txt-n9 {
+    color: var(--color-neutral-9);
+}
+
+.txt-n10 {
+    color: var(--color-neutral-10);
+}
+
+.txt-n11 {
+    color: var(--color-neutral-11);
+}
+
+.txt-n12 {
+    color: var(--color-neutral-12);
+}
+
+.txt-n13 {
+    color: var(--color-neutral-13);
+}
+
+.bg-1 {
+    background: var(--color-neutral-1);
+}
+
+.bg-2 {
+    background: var(--color-neutral-2);
+}
+
+.bg-3 {
+    background: var(--color-neutral-3);
+}
+
+.bg-4 {
+    background: var(--color-neutral-4);
+}
+
+.bg-5 {
+    background: var(--color-neutral-5);
+}
+
+.bg-6 {
+    background: var(--color-neutral-6);
+}
+
+.bg-7 {
+    background: var(--color-neutral-7);
+}
+
+.bg-8 {
+    background: var(--color-neutral-8);
+}
+
+.bg-9 {
+    background: var(--color-neutral-9);
+}
+
+.bg-10 {
+    background: var(--color-neutral-10);
+}
+
+.bg-11 {
+    background: var(--color-neutral-11);
+}
+
+.bg-12 {
+    background: var(--color-neutral-12);
+}
+
+.bg-13 {
+    background: var(--color-neutral-13);
+}

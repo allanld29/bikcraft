@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666665 8.4666669"
+   version="1.1"
+   id="svg6680"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="menu_close.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6682"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="8.0000004"
+     inkscape:cx="-0.062499997"
+     inkscape:cy="17.437499"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <defs
+     id="defs6677">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#a"
+       id="linearGradient45"
+       x1="-3.8608108"
+       y1="-6.2176433"
+       x2="3.6792326"
+       y2="-6.1670651"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1824779,0,0,1.25,0.70388051,13.896086)" />
+    <linearGradient
+       id="a"
+       x1="10"
+       y1="1.667"
+       x2="10"
+       y2="18.333"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#FFBF00"
+         id="stop1483" />
+      <stop
+         offset="1"
+         stop-color="#F2A50C"
+         id="stop1485" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient45);fill-opacity:1;stroke-width:0.190205"
+       id="rect933-3"
+       width="8.8000002"
+       height="1"
+       x="-4.313839"
+       y="5.6658063"
+       ry="0.5"
+       transform="matrix(-0.70710678,0.70710678,0.70710678,0.70710678,0,0)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.190206"
+       id="rect933"
+       width="8.8000002"
+       height="1"
+       x="-10.565806"
+       y="-0.58616132"
+       ry="0.5"
+       transform="rotate(-135)" />
+    <g
+       style="fill:none"
+       id="g1319"
+       transform="matrix(0.26458333,0,0,0.26458333,4.4057646,9.1226374)" />
+  </g>
+</svg>
